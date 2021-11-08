@@ -25,13 +25,13 @@ Import this package and follow the syntax provided below.
 
 _setLineDash_
 
-| Parameter | Class        | Description                                                       |
-| --------- | ------------ | ----------------------------------------------------------------- |
-| canvas    | Canvas       | Canvas object                                                     |
-| point1    | Offset       | Beginning point                                                   |
-| point2    | Offset       | End point                                                         |
-| paint     | Paint        | Paint object                                                      |
-| lineDash  | List<double> | Array of numbers as specified by the JavaScript Canvas API's docs |
+| Parameter | Class        | Description                                                  |
+| --------- | ------------ | ------------------------------------------------------------ |
+| canvas    | Canvas       | Canvas object                                                |
+| point1    | Offset       | Beginning point                                              |
+| point2    | Offset       | End point                                                    |
+| paint     | Paint        | Paint object                                                 |
+| lineDash  | List<double> | Array of numbers as specified by the HTML5 Canvas API's docs |
 
 _setArcDash_
 

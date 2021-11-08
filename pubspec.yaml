@@ -1,6 +1,6 @@
 name: dotted_line_array
-description: A new Flutter project.
-version: 0.0.1
+description: A Flutter library for drawing dotted line and arc with HTML5 Canvas API's array syntax
+version: 0.1.0
 homepage:
 
 environment:
