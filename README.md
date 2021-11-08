@@ -115,13 +115,13 @@ Please excuse the size differences. The flutter examples were captured on a smal
 
 ### With [5, 5] for lines and [7.8, 7.8] for arcs
 
-<img src="images/ui-examples/ui-example-i.png"/>
+<img src="images/ui-examples/ui-example-1.png"/>
 
 <br/>
 
 ### With [1.0, 2.0, 3.0, 4.0] for lines and [2.0, 4.0, 6.0, 8.0] for arcs
 
-<img src="images/ui-examples/ui-example-ii.png"/>
+<img src="images/ui-examples/ui-example-2.png"/>
 
 _UI design by Natawan Meechai_
 
