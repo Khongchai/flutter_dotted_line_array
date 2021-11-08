@@ -83,37 +83,37 @@ Please excuse the size differences. The flutter examples were captured on a smal
 
 #### [2, 20]
 
-![2,20 dart example](images/2,20/dart.png)
+![2,20 dart example](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/2%2C20/dart.png)
 
-![2,20 javascript example](images/2,20/javascript.png)
+![2,20 javascript example](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/2%2C20/javascript.png)
 
 #### [5, 10, 12]
 
-![5,10,12 dart example](images/5,10,12/dart.png)
+![5,10,12 dart example](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/5%2C10%2C12/dart.png)
 
-![5,10,12 javascript example](images/5,10,12/javascript.png)
+![5,10,12 javascript example](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/5%2C10%2C12/javascript.png)
 
 #### [1, 20, 0, 5, 2]
 
-![1,20,0,5,2 dart example](images/1,20,0,5,2/dart.png)
+![1,20,0,5,2 dart example](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/1%2C20%2C0%2C5%2C2/dart.png)
 
-![1,20,0,5,2 javascript example](images/1,20,0,5,2/javascript.png)
+![1,20,0,5,2 javascript example](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/1%2C20%2C0%2C5%2C2/javascript.png)
 
 #### [20, 3, 3, 3, 3, 3, 3, 3]
 
-![20,3,3,3,3,3,3,3 dart example](images/20,3,3,3,3,3,3,3/dart.png)
+![20,3,3,3,3,3,3,3 dart example](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/20%2C3%2C3%2C3%2C3%2C3%2C3%2C3/dart.png)
 
-![20,3,3,3,3,3,3,3 javascript example](images/20,3,3,3,3,3,3,3/javascript.png)
+![20,3,3,3,3,3,3,3 javascript example](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/20%2C3%2C3%2C3%2C3%2C3%2C3%2C3/javascript.png)
 
 ## Example Combining Straight Lines with Arcs
 
 ### With [5, 5] for lines and [7.8, 7.8] for arcs
 
-![ui-example-with-equal-arrays-of-same-number](images/ui-examples/ui-example-1.png)
+![ui-example-with-equal-arrays-of-same-number](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/ui-examples/ui-example-1.png)
 
 ### With [1.0, 2.0, 3.0, 4.0] for lines and [2.0, 4.0, 6.0, 8.0] for arcs
 
-![ui-example-with-arrays-of-different-numbers](images/ui-examples/ui-example-2.png)
+![ui-example-with-arrays-of-different-numbers](https://raw.githubusercontent.com/Khongchai/flutter_dotted_line_array/main/images/ui-examples/ui-example-2.png)
 
 _UI design by Natawan Meechai_
 
