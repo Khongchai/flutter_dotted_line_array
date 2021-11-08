@@ -1,6 +1,6 @@
-## 0.1.0
+## 0.0.2
 
-Version bump
+Updated documentation
 
 ## 0.0.1
 

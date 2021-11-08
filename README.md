@@ -11,6 +11,8 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
+# dotted_line_array
+
 This Flutter library allows you to draw dotted straight line and arc with the array syntax of html5 canvas.
 
 ## Features
@@ -81,47 +83,37 @@ Please excuse the size differences. The flutter examples were captured on a smal
 
 #### [2, 20]
 
-<img src="images/2, 20/dart.png"/>
+![2,20 dart example](images/2,20/dart.png)
 
-<img src="images/2, 20/javascript.png"/>
-
-<br/>
+![2,20 javascript example](images/2,20/javascript.png)
 
 #### [5, 10, 12]
 
-<img src="images/5, 10, 12/dart.png"/>
+![5,10,12 dart example](images/5,10,12/dart.png)
 
-<img src="images/5, 10, 12/javascript.png"/>
-
-<br/>
+![5,10,12 javascript example](images/5,10,12/javascript.png)
 
 #### [1, 20, 0, 5, 2]
 
-<img src="images/1, 20, 0, 5, 2/dart.png"/>
+![1,20,0,5,2 dart example](images/1,20,0,5,2/dart.png)
 
-<img src="images/1, 20, 0, 5, 2/javascript.png"/>
-
-<br/>
+![1,20,0,5,2 javascript example](images/1,20,0,5,2/javascript.png)
 
 #### [20, 3, 3, 3, 3, 3, 3, 3]
 
-<img src="images/20, 3, 3, 3, 3, 3, 3, 3/dart.png"/>
+![20,3,3,3,3,3,3,3 dart example](images/20,3,3,3,3,3,3,3/dart.png)
 
-<img src="images/20, 3, 3, 3, 3, 3, 3, 3/javascript.png"/>
-
-<br/>
+![20,3,3,3,3,3,3,3 javascript example](images/20,3,3,3,3,3,3,3/javascript.png)
 
 ## Example Combining Straight Lines with Arcs
 
 ### With [5, 5] for lines and [7.8, 7.8] for arcs
 
-<img src="images/ui-examples/ui-example-1.png"/>
-
-<br/>
+![ui-example-with-equal-arrays-of-same-number](images/ui-examples/ui-example-1.png)
 
 ### With [1.0, 2.0, 3.0, 4.0] for lines and [2.0, 4.0, 6.0, 8.0] for arcs
 
-<img src="images/ui-examples/ui-example-2.png"/>
+![ui-example-with-arrays-of-different-numbers](images/ui-examples/ui-example-2.png)
 
 _UI design by Natawan Meechai_
 

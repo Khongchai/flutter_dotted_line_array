@@ -99,7 +99,6 @@ void setArcDash(
   } while (_curAngle + _sweepAmount < endAngle);
 }
 
-
 double _inverseLerp(double x, double y, double value) {
   return (value - x) / (y - x);
 }
