@@ -58,7 +58,8 @@ const lineDash = [2, 20];
 
 //straight line
 setLineDash(canvas, point1, point2, paint, lineDash);
-//Arcs: circle & ellipse (can be used to draw curves from quadratic bezier)
+
+//Circle or ellipse
 setArcDash(canvas, x, y, radiusX, radiusY, paint, startAngle, sweepAngle, lineDash);
 ```
 
@@ -67,12 +68,14 @@ JavaScript
 ```js
 ctx.setLineDash([2, 20]);
 
-//straight line
+//Straight Line
 ctx.lineTo(x1, y1, x2, y2);
-//Arc: circle
+
+//Circle
 ctx.arc(x, y, radius, startAngle, endAngle, [, counterclockwise]);
-//Arc: quadratic bezier (can be used to draw ellipses)
-ctx.arcTo(x1, y1, x2, y2, radius);
+
+//Ellipse
+ctx.ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle [, counterclockwise]);
 
 ctx.stroke();
 ```
