@@ -13,7 +13,7 @@ and the Flutter guide for
 
 # dotted_line_array
 
-This Flutter library allows you to draw dotted straight line and arc with the array syntax of html5 canvas.
+This Flutter Canvas library allows you to draw dotted straight line and arc with the array syntax of html5 canvas.
 
 ## Features
 
@@ -25,28 +25,31 @@ Import this package and follow the syntax provided below.
 
 ## Usage
 
-_setLineDash_
+_setLineDash()_
 
-| Parameter | Class        | Description                                                  |
-| --------- | ------------ | ------------------------------------------------------------ |
-| canvas    | Canvas       | Canvas object                                                |
-| point1    | Offset       | Beginning point                                              |
-| point2    | Offset       | End point                                                    |
-| paint     | Paint        | Paint object                                                 |
-| lineDash  | List<double> | Array of numbers as specified by the HTML5 Canvas API's docs |
+| Parameter | Class//type  | Description                                                                                             |
+| --------- | ------------ | ------------------------------------------------------------------------------------------------------- |
+| canvas    | Canvas       | Canvas object                                                                                           |
+| point1    | Offset       | Beginning point                                                                                         |
+| point2    | Offset       | End point                                                                                               |
+| paint     | Paint        | Paint object                                                                                            |
+| lineDash  | List<double> | Array of numbers as specified by the HTML5 Canvas API's docs. Each number describes a length in pixels. |
 
-_setArcDash_
+_setArcDash()_
 
-| Parameter  | Class  | Description                                                      |
-| ---------- | ------ | ---------------------------------------------------------------- |
-| canvas     | Canvas | Canvas object                                                    |
-| x          | double | Center of the arc X                                              |
-| y          | double | Center of the arc Y                                              |
-| radiusX    | double | Arc horizontal radius                                            |
-| radiusY    | double | Arc vertical radius                                              |
-| paint      | Paint  | Paint object                                                     |
-| startAngle | double | Starting angle in degrees                                        |
-| sweepAngle | double | Clockwise sweep amount starting from startAngle, also in degrees |
+| Parameter  | Class//type  | Description                                                                                              |
+| ---------- | ------------ | -------------------------------------------------------------------------------------------------------- |
+| canvas     | Canvas       | Canvas object                                                                                            |
+| x          | double       | Center of the arc X                                                                                      |
+| y          | double       | Center of the arc Y                                                                                      |
+| radiusX    | double       | Arc horizontal radius                                                                                    |
+| radiusY    | double       | Arc vertical radius                                                                                      |
+| paint      | Paint        | Paint object                                                                                             |
+| startAngle | double       | Starting angle in degrees                                                                                |
+| sweepAngle | double       | Clockwise sweep amount starting from startAngle, also in degrees                                         |
+| lineDash   | List<double> | Array of numbers as specified by the HTML5 Canvas API's docs. Each number describes a length in degrees. |
+
+**Note: For the setArcDash, I personally found thinking about each of the dashes' length in degrees, rather than in pixels, more intuitive. Understandably so, this unfortunately makes working with both setArcDash and setLineDash together more difficult. So, something might change in the future.**
 
 ### Syntax Comparisons
 
@@ -74,7 +77,7 @@ ctx.lineTo(x1, y1, x2, y2);
 //Circle
 ctx.arc(x, y, radius, startAngle, endAngle, [, counterclockwise]);
 
-//Ellipse
+//Circle or Ellipse
 ctx.ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle [, counterclockwise]);
 
 ctx.stroke();
@@ -82,7 +85,7 @@ ctx.stroke();
 
 ### Result comparisons (Flutter: purple background, HTML5: white)
 
-Please excuse the size differences. The flutter examples were captured on a smaller device.
+**Note: The Flutter example was captured on a smaller device.**
 
 #### [2, 20]
 

@@ -1,3 +1,7 @@
+## 0.0.5
+
+More documentation work for better clarity and readability.
+
 ## 0.0.4
 
 Documentation correction => HTML Canvas has its own ellipse method.
