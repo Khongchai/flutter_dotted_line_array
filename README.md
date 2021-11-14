@@ -49,7 +49,7 @@ _setArcDash()_
 | sweepAngle | double       | Clockwise sweep amount starting from startAngle, also in degrees                                         |
 | lineDash   | List<double> | Array of numbers as specified by the HTML5 Canvas API's docs. Each number describes a length in degrees. |
 
-**Note: For the setArcDash, I personally found thinking about each of the dashes' length in degrees, rather than in pixels, more intuitive. Understandably so, this unfortunately makes working with both setArcDash and setLineDash together more difficult. So, something might change in the future.**
+**Note: For the setArcDash, I find thinking about each of the dashes' length in degrees, rather than in pixels, more intuitive. This unfortunately makes working with both setArcDash and setLineDash together, like the UI in the screenshots below, for example, more difficult. So, I might change something in the future.**
 
 ### Syntax Comparisons
 

@@ -1,3 +1,7 @@
+## 0.0.6
+
+Minor documentation edit
+
 ## 0.0.5
 
 More documentation work for better clarity and readability.
