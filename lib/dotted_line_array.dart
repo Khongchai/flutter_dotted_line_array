@@ -6,8 +6,8 @@ import "dart:ui";
 
 void setLineDash(
     Canvas canvas, Offset p1, Offset p2, Paint paint, List<double> segments) {
-  final diffX = (p1.dx - p2.dx).abs();
-  final diffY = (p1.dy - p2.dy).abs();
+  final diffX = (p2.dx - p1.dx);
+  final diffY = (p2.dy - p1.dy);
   final distance = sqrt(pow(diffX, 2) + pow(diffY, 2));
 
   /*
