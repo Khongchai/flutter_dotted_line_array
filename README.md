@@ -1,16 +1,3 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
 # dotted_line_array
 
 This Flutter Canvas library allows you to draw dotted straight line and arc with the array syntax of html5 canvas.
@@ -28,7 +15,7 @@ Import this package and follow the syntax provided below.
 _setLineDash()_
 
 | Parameter | Class//type  | Description                                                                                             |
-| --------- | ------------ | ------------------------------------------------------------------------------------------------------- |
+|-----------|--------------|---------------------------------------------------------------------------------------------------------|
 | canvas    | Canvas       | Canvas object                                                                                           |
 | point1    | Offset       | Beginning point                                                                                         |
 | point2    | Offset       | End point                                                                                               |
@@ -38,7 +25,7 @@ _setLineDash()_
 _setArcDash()_
 
 | Parameter  | Class//type  | Description                                                                                              |
-| ---------- | ------------ | -------------------------------------------------------------------------------------------------------- |
+|------------|--------------|----------------------------------------------------------------------------------------------------------|
 | canvas     | Canvas       | Canvas object                                                                                            |
 | x          | double       | Center of the arc X                                                                                      |
 | y          | double       | Center of the arc Y                                                                                      |
@@ -49,14 +36,15 @@ _setArcDash()_
 | sweepAngle | double       | Clockwise sweep amount starting from startAngle, also in degrees                                         |
 | lineDash   | List<double> | Array of numbers as specified by the HTML5 Canvas API's docs. Each number describes a length in degrees. |
 
-**Note: For the setArcDash, I find thinking about each of the dashes' length in degrees, rather than in pixels, more intuitive. This unfortunately makes working with both setArcDash and setLineDash together, like the UI in the screenshots below, for example, more difficult. So, I might change something in the future.**
+**Note: For the `setArcDash`, I find thinking about each of the dashes' length in degrees, rather than in pixels, more intuitive.**
+
+**Instead of _"this arc dash, when straightened, is 5 pixels long"_, we can say: _"this arc dash, for a circle of radius `x`, is `30` degrees in length"_**
 
 ### Syntax Comparisons
 
 Dart
 
 ```dart
-//Negative signs are ignored; [2, -2] is the same as [2, 2].
 const lineDash = [2, 20];
 
 //straight line
@@ -85,7 +73,7 @@ ctx.stroke();
 
 ### Result comparisons (Flutter: purple background, HTML5: white)
 
-**Note: The Flutter example was captured on a smaller device.**
+**Note: The Flutter examples were captured on a smaller device.**
 
 #### [2, 20]
 

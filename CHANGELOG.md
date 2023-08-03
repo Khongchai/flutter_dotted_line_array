@@ -1,3 +1,11 @@
+## 0.1.0
+
+@Marco Zoratti: removed .abs() preventing the line dash from being directed in all 2D directions.
+
+Minor documentation edit
+
+Added an example in the example folder
+
 ## 0.0.6
 
 Minor documentation edit
